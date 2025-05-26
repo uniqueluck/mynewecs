@@ -33,7 +33,7 @@ on:
 env:
   AWS_REGION: ap-south-1             # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: myregistry           # set this to your Amazon ECR repository name
-  ECS_SERVICE: mytask2025-service-evtfq61u                # set this to your Amazon ECS service name
+  ECS_SERVICE: mytask2025-service-fhxq1dlk               # set this to your Amazon ECS service name
   ECS_CLUSTER: mycluster2005               # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: mytask2025-revision1.json  # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
